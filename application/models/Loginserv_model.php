@@ -35,7 +35,7 @@ class LoginServ_model extends CI_Model {
           return null; */
 
         $sql = "SELECT *
-                FROM users
+                FROM usuarios
                 WHERE documento='" . $username . "' and clave='" . $contra."'";
 
         //print_r($sql);die;
